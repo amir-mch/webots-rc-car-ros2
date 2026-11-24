@@ -76,10 +76,10 @@ DEF WEBOTS_VEHICLE0 BmwX5 {
   controller "my_driver"
   sensorsSlotTop [
     Camera {
-      translation 1.2772 0 0.590328
-      rotation 0 1 0 0.25
+      translation 2.15 0 1.30
+      rotation 0 1 0 0.50
       name "camera"
-      fieldOfView 1.2
+      fieldOfView 1.52
       width 640
       height 540
       near 0.05

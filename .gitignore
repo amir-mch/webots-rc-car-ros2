@@ -26,3 +26,8 @@ Thumbs.db
 # Webots backups & auto-generated world thumbnails
 *.bak
 worlds/.*.jpg
+
+# Generated Webots extern controller worlds
+worlds/*_extern.wbt
+worlds/.*.wbproj
+

@@ -88,7 +88,7 @@ class WebotsRCControllerNode(Node):
     """
     # Actuator limits & scaling factors
     MAX_STEERING_ANGLE = 0.5   # radians (~28.6 degrees physical wheel lock)
-    MAX_KMH = 25.0             # km/h corresponding to 500 RPM
+    MAX_KMH = 50.0             # km/h corresponding to 500 RPM
     MAX_RPM = 500.0            # Max RPM from real robot controller
 
     def __init__(self, driver):
